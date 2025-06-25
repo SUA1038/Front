@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <title>멍이랑 놀자 - 의상 쇼핑</title>
+  <link rel="stylesheet" href="style.css" />
+
+</head>
+<body>
+<header>
+        <h1>멍이랑 놀자 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-hearts" viewBox="0 0 16 16">
+  <path fill-rule="evenodd" d="M4.931.481c1.627-1.671 5.692 1.254 0 5.015-5.692-3.76-1.626-6.686 0-5.015m6.84 1.794c1.084-1.114 3.795.836 0 3.343-3.795-2.507-1.084-4.457 0-3.343M7.84 7.642c2.71-2.786 9.486 2.09 0 8.358-9.487-6.268-2.71-11.144 0-8.358"/>
+</svg></h1>
+     		<nav>
+				<a href="index.html"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-house" viewBox="0 0 16 16">
+  <path d="M8.707 1.5a1 1 0 0 0-1.414 0L.646 8.146a.5.5 0 0 0 .708.708L2 8.207V13.5A1.5 1.5 0 0 0 3.5 15h9a1.5 1.5 0 0 0 1.5-1.5V8.207l.646.647a.5.5 0 0 0 .708-.708L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293zM13 7.207V13.5a.5.5 0 0 1-.5.5h-9a.5.5 0 0 1-.5-.5V7.207l5-5z"/>
+</svg></a>
+				<div class="dropdown">
+				<a href="#" class="dropbtn"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bag" viewBox="0 0 16 16">
+  <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1m3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1z"/>
+</svg></a>
+					<div class="dropdown-content">
+					<a href="costume.html">의상</a>
+					<a href="cart.html">장바구니 (<span id="cart-count">0</span>)</a>
+					<a href="checkout.html">결제</a>
+					</div>
+				</div>
+					<div class="dropdown">
+					<a href="#" class="dropbtn"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-people" viewBox="0 0 16 16">
+  <path d="M15 14s1 0 1-1-1-4-5-4-5 3-5 4 1 1 1 1zm-7.978-1L7 12.996c.001-.264.167-1.03.76-1.72C8.312 10.629 9.282 10 11 10c1.717 0 2.687.63 3.24 1.276.593.69.758 1.457.76 1.72l-.008.002-.014.002zM11 7a2 2 0 1 0 0-4 2 2 0 0 0 0 4m3-2a3 3 0 1 1-6 0 3 3 0 0 1 6 0M6.936 9.28a6 6 0 0 0-1.23-.247A7 7 0 0 0 5 9c-4 0-5 3-5 4q0 1 1 1h4.216A2.24 2.24 0 0 1 5 13c0-1.01.377-2.042 1.09-2.904.243-.294.526-.569.846-.816M4.92 10A5.5 5.5 0 0 0 4 13H1c0-.26.164-1.03.76-1.724.545-.636 1.492-1.256 3.16-1.275ZM1.5 5.5a3 3 0 1 1 6 0 3 3 0 0 1-6 0m3-2a2 2 0 1 0 0 4 2 2 0 0 0 0-4"/>
+</svg></a>
+					<div class="dropdown-content">
+					<a href="login.html">로그인</a>
+					<a href="newMember.html">회원가입</a>
+					<a href="Update.html">회원 정보 수정</a>
+					</div>
+				</div>
+				<a href="Map.html"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-map" viewBox="0 0 16 16">
+  <path fill-rule="evenodd" d="M15.817.113A.5.5 0 0 1 16 .5v14a.5.5 0 0 1-.402.49l-5 1a.5.5 0 0 1-.196 0L5.5 15.01l-4.902.98A.5.5 0 0 1 0 15.5v-14a.5.5 0 0 1 .402-.49l5-1a.5.5 0 0 1 .196 0L10.5.99l4.902-.98a.5.5 0 0 1 .415.103M10 1.91l-4-.8v12.98l4 .8zm1 12.98 4-.8V1.11l-4 .8zm-6-.8V1.11l-4 .8v12.98z"/>
+</svg></a>
+			</nav>
+    </header>
+
+   <main>
+  <h2 style="text-align: center; margin-top: 40px;">강아지 의상 쇼핑</h2>
+  <div class="costume-container">
+
+    <div class="costume-card">
+      <img src="image/옷1.jpg" alt="강아지 슈퍼후드 의상">
+      <div class="costume-info">
+        <h3>슈퍼댕댕 의상</h3>
+        <p>₩15000</p>
+        <button class="buy-btn" data-name="슈퍼댕댕 의상" data-price="15000">구매하기</button>
+        
+      </div>
+    </div>
+
+    <div class="costume-card">
+      <img src="image/옷2.jpg" alt="강아지 잠옷 의상">
+      <div class="costume-info">
+        <h3>멍이 잠옷</h3>
+        <p>₩13000</p>
+        <button class="buy-btn" data-name="멍이 잠옷" data-price="13000">구매하기</button>
+      </div>
+    </div>
+
+    <div class="costume-card">
+      <img src="image/옷3.jpg" alt="강아지 한복">
+      <div class="costume-info">
+        <h3>전통 한복</h3>
+        <p>₩18000</p>
+        <button class="buy-btn" data-name="전통 한복" data-price="18000">구매하기</button>
+      </div>
+    </div>
+
+    <div class="costume-card">
+      <img src="image/옷4.jpg" alt="강아지 체크무늬 의상">
+      <div class="costume-info">
+        <h3>하늘 체크옷</h3>
+        <p>₩12000</p>
+        <button class="buy-btn" data-name="하늘 체크옷" data-price="12000">구매하기</button>
+      </div>
+    </div>
+
+    <div class="costume-card">
+      <img src="image/옷5.jpg" alt="강아지 패딩">
+      <div class="costume-info">
+        <h3>두툼 패딩</h3>
+        <p>₩22000</p>
+        <button class="buy-btn" data-name="두툼 패딩" data-price="22000">구매하기</button>
+      </div>
+    </div>
+
+    <div class="costume-card">
+      <img src="image/옷6.jpg" alt="강아지 브라운베어 의상">
+      <div class="costume-info">
+        <h3>브라운 베어 니트</h3>
+        <p>₩15000</p>
+        <button class="buy-btn" data-name="브라운 베어 니트" data-price="15000">구매하기</button>
+      </div>
+    </div>
+
+    <div class="costume-card">
+      <img src="image/옷7.jpg" alt="강아지 다람쥐 패턴 의상">
+      <div class="costume-info">
+        <h3>다람아 놀자 티셔츠</h3>
+        <p>₩11000</p>
+        <button class="buy-btn" data-name="다람아 놀자 티셔츠" data-price="11000">구매하기</button>
+      </div>
+    </div>
+
+    <div class="costume-card">
+      <img src="image/옷8.jpg" alt="강아지 스트라이트 나시 의상">
+      <div class="costume-info">
+        <h3>스프라이트 나시</h3>
+        <p>₩12000</p>
+        <button class="buy-btn" data-name="스프라이트 나시" data-price="12000">구매하기</button>
+      </div>
+    </div>
+
+    <div class="costume-card">
+      <img src="image/옷9.jpg" alt="강아지 계란말이 의상">
+      <div class="costume-info">
+        <h3>계란말이 티셔츠</h3>
+        <p>₩17000</p>
+        <button class="buy-btn" data-name="계란말이 티셔츠" data-price="17000">구매하기</button>
+      </div>
+    </div>
+
+  </div>
+</main>
+
+
+  <script>
+    (() => {
+      const CART_KEY = 'cart';
+
+      function getCart() {
+        try {
+          return JSON.parse(localStorage.getItem(CART_KEY)) || [];
+        } catch {
+          return [];
+        }
+      }
+
+      function saveCart(cart) {
+        localStorage.setItem(CART_KEY, JSON.stringify(cart));
+      }
+
+      function addToCart(name, price) {
+        const cart = getCart();
+        const item = cart.find(i => i.name === name);
+
+        if (item) {
+          item.qty++;
+        } else {
+          cart.push({ name, price, qty: 1 });
+        }
+        saveCart(cart);
+        updateCartCount();
+      }
+
+      function updateCartCount() {
+        const cart = getCart();
+        const totalCount = cart.reduce((acc, item) => acc + item.qty, 0);
+        const countElem = document.getElementById('cart-count');
+        if (countElem) countElem.textContent = totalCount;
+      }
+
+      document.addEventListener('DOMContentLoaded', () => {
+        updateCartCount();
+
+        document.querySelectorAll('.buy-btn').forEach(btn => {
+          btn.addEventListener('click', () => {
+            const name = btn.dataset.name;
+            const price = parseInt(btn.dataset.price, 10);
+            addToCart(name, price);
+            alert(`${name} 상품이 장바구니에 추가되었습니다.`);
+          });
+        });
+      });
+    })();
+  </script>
+  
+      <footer>
+        <p>&copy; 2025 멍이랑 놀자. All rights reserved.</p>
+    </footer>
+    
+</body>
+</html>
